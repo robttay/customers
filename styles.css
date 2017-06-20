@@ -1,0 +1,45 @@
+/*
+*/
+body {
+  font-family: 'Lato', sans-serif;
+}
+.customers {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+h1 {
+  flex: 100%;
+  text-align: center;
+}
+
+span {
+  flex: 25%;
+  width: 120px;
+  margin: auto;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+
+hr {
+  border: 1px solid #35b15c;
+  width: 70px;
+  line-height: 4px;
+}
+i {
+  color: transparent;
+  text-shadow: #35b15c 2px 2px 5px;
+}
+.upper {
+  text-transform: uppercase;
+}
+#bold {
+  font-weight: bolder;
+}
+#address {
+  text-transform: capitalize;
+}
